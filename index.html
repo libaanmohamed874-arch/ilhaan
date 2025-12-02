@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Greenfield Academy — Welcome</title>
+  <meta name="description" content="Greenfield Academy — a modern, caring school focused on curiosity, creativity and community.">
+  <style>
+    :root{--accent:#2b7a78;--muted:#6b7280;--bg:#f7fafc;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;color:#111;background:var(--bg);line-height:1.45}
+    header{background:linear-gradient(90deg,rgba(43,122,120,.95),rgba(33,150,243,.9));color:#fff;padding:28px 20px}
+    .container{max-width:1100px;margin:0 auto;padding:0 20px}
+    nav{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center;font-weight:700}
+    .brand svg{width:44px;height:44px}
+    .nav-links{display:flex;gap:18px}
+    .nav-links a{color:rgba(255,255,255,.95);text-decoration:none;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:40px 0}
+    .hero h1{font-size:2.25rem;margin:0 0 12px}
+    .cta{display:inline-block;margin-top:14px;padding:10px 16px;background:#ffd166;color:#04293a;border-radius:10px;text-decoration:none;font-weight:700}
+    .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(16,24,40,.06)}
+    .stats{display:flex;gap:12px;margin-top:18px}
+    .stat{flex:1;text-align:center}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:22px}
+    section{padding:36px 0}
+    h2{margin:0 0 8px}
+    p.lead{color:var(--muted);margin-top:8px}
+    .features{display:flex;gap:12px;flex-wrap:wrap}
+    .feature{flex:1;min-width:200px}
+    footer{padding:26px 0;text-align:center;color:var(--muted)}
+    form input,form textarea,form select{width:100%;padding:10px;border:1px solid #e6e9ef;border-radius:8px;margin-top:8px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700}
+    @media (max-width:880px){.hero{grid-template-columns:1fr;}.nav-links{display:none}.brand{gap:8px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" rx="12" fill="#fff" opacity="0.06"/><path d="M10 44c9-10 18-12 27-12s18 2 27 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <div>Greenfield Academy</div>
+            <small style="opacity:.9">Curiosity — Community — Excellence</small>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#programs">Programs</a>
+          <a href="#admissions">Admissions</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div class="hero">
+        <div>
+          <h1>Welcome to Greenfield Academy</h1>
+          <p class="lead">A safe, creative, and academically rigorous environment where learners from kindergarten to grade 12 are supported to explore, grow and lead.</p>
+          <a class="cta" href="#admissions">Apply Now</a>
+          <div class="stats" aria-hidden="true">
+            <div class="stat card"><strong>450+</strong><div style="color:var(--muted)">Students</div></div>
+            <div class="stat card"><strong>35</strong><div style="color:var(--muted)">Teachers</div></div>
+            <div class="stat card"><strong>25</strong><div style="color:var(--muted)">Clubs & Activities</div></div>
+          </div>
+        </div>
+        <div class="card" role="img" aria-label="Students working together">
+          <img src="https://source.unsplash.com/collection/9637906/420x280" alt="Students" style="width:100%;border-radius:8px;display:block;margin-bottom:12px">
+          <div style="font-weight:700">Collaborative learning spaces</div>
+          <div style="color:var(--muted);font-size:14px;margin-top:6px">Flexible classrooms, library, and labs built for hands-on projects and teamwork.</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p class="lead">Founded in 2005, Greenfield Academy prepares students for a changing world by combining strong academics with social-emotional learning, arts and sports.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Mission</h3>
+          <p>To develop curious, compassionate and capable learners who contribute positively to their communities.</p>
+        </div>
+        <div class="card">
+          <h3>Vision</h3>
+          <p>Every student leaves Greenfield equipped to solve problems, collaborate and continue learning for life.</p>
+        </div>
+        <div class="card">
+          <h3>Values</h3>
+          <ul>
+            <li>Respect & Inclusion</li>
+            <li>Academic Excellence</li>
+            <li>Creativity & Inquiry</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="programs">
+      <h2>Programs & Curriculum</h2>
+      <p class="lead">We offer a balanced curriculum with strong emphasis on STEM, languages, arts, and physical education.</p>
+      <div class="features">
+        <div class="feature card">
+          <h4>Early Years</h4>
+          <p>Play-based learning, literacy foundations and exploration.</p>
+        </div>
+        <div class="feature card">
+          <h4>Primary</h4>
+          <p>Integrated subjects, project-based units, and formative assessment.</p>
+        </div>
+        <div class="feature card">
+          <h4>Secondary</h4>
+          <p>Rigorous discipline-based courses, electives and university preparation.</p>
+        </div>
+        <div class="feature card">
+          <h4>Clubs & Enrichment</h4>
+          <p>Robotics, debating, visual arts, music, community service and sports teams.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faculty">
+      <h2>Our Faculty</h2>
+      <p class="lead">Experienced, caring teachers committed to student growth.</p>
+      <div class="grid">
+        <div class="card">
+          <h4>Mrs. Amina H.</h4>
+          <small style="color:var(--muted)">Head of School</small>
+          <p style="margin-top:10px">Educational leader with 15+ years experience in curriculum development and teacher mentorship.</p>
+        </div>
+        <div class="card">
+          <h4>Mr. David L.</h4>
+          <small style="color:var(--muted)">STEM Coordinator</small>
+          <p style="margin-top:10px">Leads robotics and math enrichment programs. Passionate about hands-on learning.</p>
+        </div>
+        <div class="card">
+          <h4>Ms. Hawa K.</h4>
+          <small style="color:var(--muted)">Counselor</small>
+          <p style="margin-top:10px">Provides social-emotional support and college/career guidance.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="admissions">
+      <h2>Admissions</h2>
+      <p class="lead">We welcome applications year-round. Fill the form below to request a prospectus or schedule a visit.</p>
+      <div style="display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:start">
+        <form class="card" aria-label="Admissions form">
+          <label>Full name
+            <input type="text" name="name" placeholder="e.g. Fatima Omar" required>
+          </label>
+          <label>Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>Child's current grade
+            <select name="grade"><option>Kindergarten</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6+</option></select>
+          </label>
+          <label>Message
+            <textarea rows="4" placeholder="Anything we should know?"></textarea>
+          </label>
+          <button type="submit" class="btn" style="margin-top:10px">Request Info</button>
+        </form>
+
+        <div class="card">
+          <h4>Visit Us</h4>
+          <p style="color:var(--muted)">123 Green Lane, Cityville</p>
+          <p style="color:var(--muted)">Open weekdays 8:00 — 16:00</p>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="lead">Questions? We're happy to help.</p>
+      <div class="grid">
+        <div class="card">
+          <h4>General enquiries</h4>
+          <p style="color:var(--muted)">hello@greenfield.edu • +1 (555) 123-4567</p>
+        </div>
+        <div class="card">
+          <h4>Map</h4>
+          <p style="color:var(--muted)">[Embed a map here when ready]</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container card" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <div>© <strong>Greenfield Academy</strong> 2005 — <span id="year"></span></div>
+      <div style="color:var(--muted)">Made with care for learners everywhere.</div>
+    </div>
+    <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
